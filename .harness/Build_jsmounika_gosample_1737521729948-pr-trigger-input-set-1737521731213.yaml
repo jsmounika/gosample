@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_jsmounika_gosample_1737521729948-pr-trigger-input-set
+  identifier: Build_jsmounika_gosample_1737521729948prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_jsmounika_gosample_1737521729948
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
